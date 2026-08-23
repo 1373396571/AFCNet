@@ -1,3 +1,5 @@
 # AFCNet
-这是我的第一个项目。
-##1233
+## Introduction
+We presents a novel multimodal instance segmentation method, termed UMIS-YOLO, which is grounded in the YOLO architecture. UMIS-YOLO incorporates a dual backbone network design that substantially enhances the feature extraction capabilities for both RGB images and depth images, thereby improving the effectiveness of instance segmentation. At the same time, we propose two innovative plug-and-play modules: the frequency-domain feature enhancement fusion (FDFEF) module and the residual feature fusion (RFF) module. The FDFEF module leverages Fourier transform to enhance the features of both modalities in the frequency domain, using learnable weights to enable the complementary integration of amplitude and phase information. While the RFF module uses a residual learning strategy to efficiently merge low-level and high-level features prior to the segmentation head, thereby improving pixel-level segmentation accuracy.
+
+In addition, we introduce a challenging high-resolution dataset, UMIS-Coral, which comprises RGB images and depth images captured in complex coral environments. Meanwhile, we expand the depth images for the UIIS dataset to further verify the effectiveness of UMIS-YOLO.
