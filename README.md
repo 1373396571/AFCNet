@@ -16,6 +16,7 @@ The DroneVehicle dataset are available at https://github.com/VisDrone/DroneVehic
 
 The LLVIP dataset are available at https://github.com/bupt-ai-cz/LLVIP (accessed in 17 October 2021).
 
+The data we have randomly divided will be uploaded in the future.
 
 <details>
 <summary>📁 File structure</summary>
