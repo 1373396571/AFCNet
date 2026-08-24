@@ -1,0 +1,15 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/set1, path/to/set2, ...]
+# 指定训练集图片的根目录或包含图片路径的文本文件
+path: /opt/data/private/yolo/DroneVehicle
+train: train/rgb/images
+val: val/rgb/images
+
+# Classes (必须提供，即使只有一个类)
+# 类别数量
+channels: 4
+nc: 5  # number of classes
+# 类别名称列表 (顺序很重要，索引对应 class id)
+names: ['bus','car','freight_car','truck','van']  # class names
+
+# Optional: Test dataset (uncomment and set if you have a test set)
+# test: visible/test # test images (optional)
