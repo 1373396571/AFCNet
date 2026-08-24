@@ -15,3 +15,28 @@ We have also provided a requirements document so that everyone can reproduce the
 The DroneVehicle dataset are available at https://github.com/VisDrone/DroneVehicle (accessed on 10 October 2022).
 
 The LLVIP dataset are available at https://github.com/bupt-ai-cz/LLVIP (accessed in 17 October 2021).
+
+
+<details>
+<summary>📁 File structure</summary>
+
+- Your dataset
+  - train
+    - rgb
+      - images
+      - labels
+    - ir
+      - images
+      - labels
+  - val
+    - rgb
+      - images
+      - labels
+    - ir
+      - images
+      - labels
+
+</details>
+
+
+
