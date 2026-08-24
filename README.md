@@ -11,3 +11,5 @@ python 3.11.9
 cuda 12.0
 
 We have also provided a requirements document so that everyone can reproduce these results.
+## Datasets
+The DroneVehicle dataset are available at https://github.com/VisDrone/DroneVehicle (accessed on 10 October 2022). The LLVIP dataset are available at https://github.com/bupt-ai-cz/LLVIP (accessed in 17 October 2021).
