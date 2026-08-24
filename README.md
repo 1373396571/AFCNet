@@ -39,5 +39,9 @@ The data we have randomly divided will be uploaded in the future.
 
 </details>
 
+## Result & Weights
+To ensure complete transparency and reproducibility, this repository explicitly provides:
 
-
+Results and weights generated upon completion of training: These documents provide an important basis for evaluating and further optimizing the model.
+Complete Training Scripts: The full training pipeline with all hyperparameter configurations used in our paper, allowing researchers to train the model from scratch.
+Testing & Inference Scripts: Complete code for evaluating model metrics (mAP, Precision, Recall) and generating visual detection results.
